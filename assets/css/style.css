@@ -1,0 +1,42 @@
+.grid-item-one {
+  grid-area: header;
+  background-color: blueviolet;
+}
+
+.grid-item-two {
+  grid-area: main-left;
+  background-color: blanchedalmond;
+}
+
+.grid-item-three {
+  grid-area: main-center;
+  background-color: blue
+}
+
+.grid-item-four {
+  grid-area: main-right;
+  background-color: burlywood
+}
+
+.grid-item-five {
+  grid-area: footer;
+  background-color: brown
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'main-left main-center main-right'
+    'footer footer footer';
+  gap: 1rem;
+  background-color: goldenrod;
+  padding: .10px;
+}
+
+.grid-container>div {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  text-align: center;
+  padding: 10px 0;
+  font-size: 40px;
+}
