@@ -1,71 +1,59 @@
-.grid-item-one {
-  grid-area: header;
-  background-color: blueviolet;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  height: 100vh;
+  grid-template-areas:
+    'header header header'
+    'main-left main-center main-right'
+    'footer footer footer';
+  gap: 5px;
+  background-color: goldenrod;
+  padding: 10px;
 }
 
-.flex-container2 {
-  display: flex;
-  height: 500px;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: stretch;
+.grid-container>div {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  text-align: center;
+  padding: 10px 0;
+  font-size: 40px;
 }
 
 .flex-item-one {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: 400px;
   margin: auto;
   background-color: aliceblue;
   color: chartreuse;
 }
 
+.grid-item-one {
+  grid-area: header;
+  background-color: blueviolet;
+}
+
+.flex-container {
+  display: flex;
+  height: 350px;
+  width: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
 .flex-item-two {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
   margin: auto;
   background-color: aquamarine;
   color: cornflowerblue;
 }
 
 .flex-item-three {
-  width: 100px;
-  height: 100px;
+  width: auto;
+  height: auto;
   margin: auto;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   color: darksalmon;
-}
-
-.flex-container {
-  /* We first create a flex layout context */
-  display: flex;
-  
-  /* Then we define the flow direction 
-     and if we allow the items to wrap 
-   * Remember this is the same as:
-   * flex-direction: row;
-   * flex-wrap: wrap;
-   */
-  flex-flow: row wrap;
-  
-  /* Then we define how is distributed the remaining space */
-  justify-content: space-around;
-  
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.flex-item {
-  background: tomato;
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
 }
 
 .grid-item-two {
@@ -86,25 +74,6 @@
 .grid-item-five {
   grid-area: footer;
   background-color: brown
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 250px 500px 250px;
-  grid-template-areas:
-    'header header header'
-    'main-left main-center main-right'
-    'footer footer footer';
-  gap: 15px;
-  background-color: goldenrod;
-  padding: .10px;
-}
-
-.grid-container>div {
-  /*background-color: rgba(255, 255, 255, 0.8);*/
-  text-align: center;
-  padding: 10px 0;
-  font-size: 40px;
 }
 
 .active {
