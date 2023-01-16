@@ -104,6 +104,16 @@ nav {
   /*height:max-content;*/
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(107, 114, 114);
+  font-family: "Montserrat", sans-serif;
+  height: 10vh;
+  min-height: 50px;
+}
+
 .heading {
   display: flex;
   justify-content: space-around;
