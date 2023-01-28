@@ -3,99 +3,131 @@
 /* include margin and padding in overall size */
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-  body {
-    overflow: hidden;
-    font-family: lato, sans-serif;
-    /*font-weight: 300;*/
-    color:darkslategray;
-  }
+body {
+  overflow: hidden;
+  font-family: lato, sans-serif;
+  /*font-weight: 300;*/
+  color: darkslategray;
+}
 
-  /* grid set up with 4 rows and 3 columns*/
+/* grid set up with 4 rows and 3 columns*/
 
 .grid-container {
-    display: grid;
-    grid-template-columns: auto;
-    /* grid-template-rows: 20vh 40vh 30vh 10vh; */
-    grid-template-rows: auto;
-    grid-template-areas:
-      'header header header'
-      'main-left main-right main-right'
-      'western action martial'
-      'footer footer footer';
-    /*background-color: goldenrod;*/
-    gap: 5px;
-    padding: 5px;
-    /*height: 100vh;*/
-    color: black;
+  display: grid;
+  grid-template-columns: auto;
+  /* grid-template-rows: 20vh 40vh 30vh 10vh; */
+  grid-template-rows: auto;
+  grid-template-areas:
+    'header header header'
+    'main-left main-right main-right'
+    'western action martial'
+    'footer footer footer';
+  /*background-color: goldenrod;*/
+  gap: 5px;
+  padding: 5px;
+  /*height: 100vh;*/
+  color: black;
 
-  }
+}
 
-  .top-bar-grid1 {
-    display: flex;
-    grid-area: header;
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    align-items: center;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 40px;
-    background-color: blueviolet;
-    font-family: "Montserrat", sans-serif;
-  }
+/* logo, heading and nav bar */
 
-  .top-bar-grid1 i {
-    font-size: 60px;
-  }
+.top-bar-grid1 {
+  display: flex;
+  grid-area: header;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 40px;
+  background-color: blueviolet;
+  font-family: "Montserrat", sans-serif;
+}
 
-  h4:first-letter {
+.top-bar-grid1 i {
+  font-size: 60px;
+}
+
+h4:first-letter {
   color: red;
   font-size: 1.3em;
   font-weight: bold;
 }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-  }
 
-  .nav-list {
-    display: flex;
-    justify-content: center;
-    width: 25%;
-  }
-  
-  
-  .nav-list li {
-    list-style: none;
-    flex: 0 0 auto; 
-  }
-  
-  
-  .nav-list a {
-    color: white;
-    text-decoration: none;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 6px 8px;
-  }
-  
-  .nav-list a:hover:not(.active) {
-    background-color:white;
-    color: blueviolet;
-  }
-  
-  .nav-list li a.active {
-    background-color: #69a66b;
-  }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.nav-list li {
+  list-style: none;
+  flex: 0 0 auto;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 6px 8px;
+}
+
+.nav-list a:hover:not(.active) {
+  background-color: white;
+  color: blueviolet;
+}
+
+.nav-list li a.active {
+  background-color: #69a66b;
+}
+
+
+/* footer */
+
+.bottom-bar-grid7 {
+  display: flex;
+  grid-area: footer;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 40px;
+  background-color: blueviolet;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.soc-media-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+  padding-left: 40px;
+}
+
+/*.soc-media-links a:hover:not(.active) {
+  background-color: white;
+  color: blueviolet;
+}
+
+
+.soc-media-links li a.active {
+  background-color: #4caf50;
+}*/
