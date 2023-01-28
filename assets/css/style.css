@@ -9,7 +9,7 @@
 }
 
 body {
-  overflow: hidden;
+  /*overflow: hidden;*/
   font-family: lato, sans-serif;
   /*font-weight: 300;*/
   color: darkslategray;
@@ -20,17 +20,17 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: auto;
-  /* grid-template-rows: 20vh 40vh 30vh 10vh; */
+  /*grid-template-rows: 20vh 40vh 30vh 10vh; */
   grid-template-rows: auto;
   grid-template-areas:
     'header header header'
     'main-left main-right main-right'
     'western action martial'
     'footer footer footer';
-  /*background-color: goldenrod;*/
+  background-color: goldenrod;
   gap: 5px;
-  padding: 5px;
-  /*height: 100vh;*/
+  padding: 10px;
+  height: 100vh;
   color: black;
 
 }
@@ -52,6 +52,7 @@ body {
   font-size: 40px;
   background-color: blueviolet;
   font-family: "Montserrat", sans-serif;
+  height: 10vh;
 }
 
 .top-bar-grid1 i {
@@ -97,8 +98,77 @@ nav {
 }
 
 .nav-list li a.active {
-  background-color: #69a66b;
+  font-weight: 900;
+  color: rgb(250, 250, 6);
+  border-style: solid;
 }
+
+
+
+/* Main Area */
+
+.grid-item-two {
+  grid-area: main-left;
+  background-color: blanchedalmond;
+  align-items: center;
+  height: 30vh;
+
+}
+
+.grid-item-three {
+  grid-area: main-right;
+  background-color: rgb(255, 205, 236);
+  align-items: center;
+  height: 30vh;
+  
+}
+
+.grid-item-three>img {
+  object-fit: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+
+.grid-item-four {
+  grid-area: western;
+  background-color: darkmagenta;
+  align-items: center;
+  height: 40vh;
+}
+
+.grid-item-four>img {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+.grid-item-five {
+  grid-area: action;
+  background-color: brown;
+  align-items: center;
+  height: 40vh;
+}
+
+.grid-item-five>img {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+}
+
+.grid-item-six {
+  grid-area: martial;
+  background-color: fuchsia;
+  align-items: center;
+  height: 40vh;
+}
+
+.grid-item-six>img {
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+}
+
 
 
 /* footer */
@@ -111,23 +181,19 @@ nav {
   font-size: 40px;
   background-color: blueviolet;
   font-family: "Montserrat", sans-serif;
+  color: black;
+  letter-spacing: 50px;
 }
 
 
 .soc-media-links {
   display: flex;
-  justify-content: space-around;
   list-style: none;
   color: white;
-  padding-left: 40px;
+  /*padding-left: 40px;*/
 }
 
-/*.soc-media-links a:hover:not(.active) {
-  background-color: white;
-  color: blueviolet;
+.soc-media-links:hover {
+  color: rgb(250, 250, 6);
+
 }
-
-
-.soc-media-links li a.active {
-  background-color: #4caf50;
-}*/
