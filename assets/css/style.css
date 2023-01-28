@@ -17,7 +17,7 @@ body {
 
 /* grid set up with 4 rows and 3 columns*/
 
-.grid-container {
+.index-grid-container {
   display: grid;
   grid-template-columns: auto;
   /*grid-template-rows: 20vh 40vh 30vh 10vh; */
@@ -35,9 +35,27 @@ body {
 
 }
 
+.listings-grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  /*grid-template-rows: 20vh 40vh 30vh 10vh; */
+  grid-template-rows: auto;
+  grid-template-areas:
+    'header header header'
+    'western-title action-title martial-arts-title'
+    'western action martial'
+    'footer footer footer';
+  background-color: goldenrod;
+  gap: 5px;
+  padding: 10px;
+  height: 100vh;
+  color: black;
+
+}
+
 /* logo, heading and nav bar */
 
-.top-bar-grid1 {
+.top-bar-grid-item {
   display: flex;
   grid-area: header;
   justify-content: space-between;
@@ -55,7 +73,7 @@ body {
   height: 10vh;
 }
 
-.top-bar-grid1 i {
+.top-bar-grid-item i {
   font-size: 60px;
 }
 
@@ -105,9 +123,9 @@ nav {
 
 
 
-/* Main Area */
+/* Index Main Area */
 
-.grid-item-two {
+.welcome-grid-item {
   grid-area: main-left;
   background-color: blanchedalmond;
   align-items: center;
@@ -115,7 +133,7 @@ nav {
 
 }
 
-.grid-item-three {
+.venue-grid-item {
   grid-area: main-right;
   background-color: rgb(255, 205, 236);
   align-items: center;
@@ -123,57 +141,78 @@ nav {
   
 }
 
-.grid-item-three>img {
+.venue-grid-item>img {
   object-fit: cover;
   width: 100%;
   height: 30vh;
 }
 
 
-.grid-item-four {
+.western-grid-item {
   grid-area: western;
   background-color: darkmagenta;
   align-items: center;
   height: 40vh;
 }
 
-.grid-item-four>img {
+.western-grid-item>img {
   object-fit: cover;
   width: 100%;
   height: 40vh;
 }
 
-.grid-item-five {
+.action-grid-item {
   grid-area: action;
   background-color: brown;
   align-items: center;
   height: 40vh;
 }
 
-.grid-item-five>img {
+.action-grid-item>img {
   object-fit: cover;
   width: 100%;
   height: 40vh;
 }
 
-.grid-item-six {
+.martial-art-grid-item {
   grid-area: martial;
   background-color: fuchsia;
   align-items: center;
   height: 40vh;
 }
 
-.grid-item-six>img {
+.martial-art-grid-item>img {
   object-fit: cover;
   width: 100%;
   height: 40vh;
 }
 
+/* listings grid items */
 
+.title-western {
+  grid-area: western-title;
+  background-color: rgb(215, 255, 205);
+  align-items: center;
+  height: 10vh;
+}
+
+.title-action {
+  grid-area: action-title;
+  background-color: rgb(255, 205, 205);
+  align-items: center;
+  height: 10vh;
+}
+
+.title-martial-arts {
+  grid-area: martial-arts-title;
+  background-color: rgb(218, 205, 255);
+  align-items: center;
+  height: 10vh;
+}
 
 /* footer */
 
-.bottom-bar-grid7 {
+.bottom-bar-grid-item {
   display: flex;
   grid-area: footer;
   justify-content: space-around;
