@@ -1,166 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/* include margin and padding in overall size */
 
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
 
-/* remove scrollbar */
+  body {
+    overflow: hidden;
+    font-family: lato, sans-serif;
+    /*font-weight: 300;*/
+    color:darkslategray;
+  }
 
-body {
-  overflow: hidden;
-  font-family: lato, sans-serif;
-  font-weight: 300;
-  color: #3a3a3a;
-}
-
-
-
-h4:first-letter {
-  color: red;
-  font-size: 1.1em;
-  font-weight: bold;
-}
-
-/* grid set up with 3 rows and 3 columns*/
+  /* grid set up with 4 rows and 3 columns*/
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: 10vh 50vh 30vh 10vh;
-  grid-template-areas:
-    'header header header'
-    'main-left main-right main-right'
-    'western action martial'
-    'footer footer footer';
-  gap: 5px;
-  /*background-color: goldenrod;*/
-  padding: 5px;
-  height: 100vh;
-  color: black;
-}
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-rows: 20vh 40vh 30vh 10vh; */
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header header header'
+      'main-left main-right main-right'
+      'western action martial'
+      'footer footer footer';
+    /*background-color: goldenrod;*/
+    gap: 5px;
+    padding: 5px;
+    /*height: 100vh;*/
+    color: black;
 
-.grid-item-one {
-  grid-area: header;
-  background-color: blueviolet;
-  height: 10vh;
-  min-height: 50px;
-}
+  }
 
-.grid-item-two {
-  grid-area: main-left;
-  background-color: blanchedalmond;
-}
+  .top-bar-grid1 {
+    display: flex;
+    grid-area: header;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    background-color: blueviolet;
+    font-family: "Montserrat", sans-serif;
+  }
 
-.grid-item-three {
-  grid-area: main-right;
+  .top-bar-grid1 i {
+    font-size: 60px;
+  }
 
-}
-
-.grid-item-four {
-  grid-area: western;
-  background-color: darkmagenta;
-}
-
-.grid-item-five {
-  grid-area: action;
-  background-color: brown;
-}
-
-.grid-item-six {
-  grid-area: martial;
-  background-color: fuchsia;
-}
-
-.grid-item-seven {
-  grid-area: footer;
-  background-color: yellowgreen;
-}
-
-
-.active {
-  border-bottom: 1px solid #3a3a3a;
-  color: darkorange;
-}
-
-.body-text {
-  display: flex;
-  font-family: "Montserrat", sans-serif;
-  align-items: center;
-  justify-content: center;
-  margin-top: 25px;
-}
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: teal;
-  font-family: "Montserrat", sans-serif;
-  height: 10vh;
-  min-height: 50px;
-  /*height:max-content;*/
-}
-
-footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: rgb(107, 114, 114);
-  font-family: "Montserrat", sans-serif;
-  height: 10vh;
-  min-height: 50px;
-}
-
-.heading {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 40px;
-  height: 10vh;
-  min-height: 50px;
-
-}
-
-.heading>i {
-  font-size: 60px;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 25%;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.nav-links a {
-  color: white;
-  text-decoration: none;
-  letter-spacing: 3px;
+  h4:first-letter {
+  color: red;
+  font-size: 1.3em;
   font-weight: bold;
-  font-size: 14px;
-  padding: 6px 8px;
 }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
 
-.nav-links a:hover:not(.active) {
-  background-color: lightseagreen;
-}
-
-.nav-links li a.active {
-  background-color: #4caf50;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /*opacity: .6;*/
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+  }
+  
+  
+  .nav-list li {
+    list-style: none;
+    flex: 0 0 auto; 
+  }
+  
+  
+  .nav-list a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 8px;
+  }
+  
+  .nav-list a:hover:not(.active) {
+    background-color:white;
+    color: blueviolet;
+  }
+  
+  .nav-list li a.active {
+    background-color: #69a66b;
   }
