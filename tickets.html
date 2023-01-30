@@ -2,56 +2,122 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Cosy cinema for fans of retro movies. Based in Douglas Street, Cork City, Ireland">
     <meta name="keywords"
         content="cinema, screen, venue, movie, film, retro, classic, action, western, martial arts, cork city, ireland ">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Home</title>
 </head>
 
 <body>
+    <div class="tickets-grid-container">
 
-    <body>
-        <div class="grid-container">
-            <div class="grid-item-one">
-                <div class="flex-container">
-                    <div class="flex-item-one">
-                        <p>Logo</p>
-                    </div>
-                    <div class="flex-item-two">
-                        <p>Title</p>
-                    </div>
-                    <div class="flex-item-three">
-                        <ul>
-                            <li><a href="index.html">Home</a>
-                            </li>
-                            <li><a href="listings.html">Listings</a>
-                            </li>
-                            <li><a href="tickets.html" class="active">Tickets</a>
-                            </li>
-                            <li><a href="contact.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+        <header class="top-bar-grid-item">
+            <div>
+                <i class="fa-solid fa-film"></i>
             </div>
-            <div class="grid-item-two">
-                <p>Main Left</p>
+            <div>
+                <h4>RetroVision</h4>
             </div>
-            <div class="grid-item-three">
-                <p>Main Center</p>
+            <div>
+                <nav>
+                    <ul class="nav-list">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="listings.html">Listings</a>
+                        </li>
+                        <li>
+                            <a class="active" href="tickets.html">Tickets</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="grid-item-four">
-                <p>Main Right</p>
-            </div>
-            <div class="grid-item-five">
-                <p>Footer</p>
-            </div>
+        </header>
+
+        <div class="tickets-movie-list-grid-item">
+            <form>
+                <label for="movie-list">Choose Movie</label>
+                <select id="movie-list" name="movie-list" size="6">
+                    <option value="1">The Good, The Bad and The Ugly</option>
+                    <option value="2">Once Upon A Time In The West</option>
+                    <option value="3">Die Hard</option>
+                    <option value="4">Lethal Weapon</option>
+                    <option value="5">Kickboxer</option>
+                    <option value="6">The Street Fighter</option>
+                </select>
+            </form>
         </div>
-    </body>
+
+        <div class="tickets-user-info-grid-item">
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+                <br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <button type="button" class="button">Click Me!</button>
+            </form>
+        </div>
+
+
+
+        <div id="slider">
+            <figure>
+                  <img src="assets/images/action3.webp">
+                  <img src="assets/images/KungFuLineArt.jpg">
+                  <img src="assets/images/western2.webp">
+            </figure>
+      </div>
+
+
+
+
+
+        <footer class="bottom-bar-grid-item">
+            <ul class="soc-media-links">
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Facebook page (opens in a new tab)"><i
+                            class="fa-brands fa-facebook soc-media-links"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Twitter page (opens in a new tab)"><i
+                            class="fa-brands fa-twitter soc-media-links"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Youtube page (opens in a new tab)"><i
+                            class="fa-brands fa-youtube soc-media-links"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                        aria-label="Visit our Instagram page (opens in a new tab)"><i
+                            class="fa-brands fa-instagram soc-media-links"></i></a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/9d9c64c030.js" crossorigin="anonymous"></script>
+</body>
 
 </html>

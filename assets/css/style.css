@@ -274,6 +274,139 @@ nav {
   opacity: 0.4;
 }*/
 
+
+/* tickets grid */
+
+.tickets-grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  /*grid-template-rows: 20vh 40vh 30vh 10vh; */
+  grid-template-rows: auto;
+  grid-template-areas:
+    'header header header'
+    'movie-list screen screen'
+    'user-info screen screen'
+    'footer footer footer';
+  background-color: gold;
+  gap: 5px;
+  padding: 10px;
+  height: 100vh;
+}
+
+
+
+.tickets-movie-list-grid-item {
+  grid-area: movie-list;
+  background-color: blanchedalmond;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.tickets-movie-list-grid-item div {
+    padding: 20px;
+}
+
+form {
+    background-color: #f0f0f0;
+    height: 100%;
+}
+
+#movie-list {
+    height: 100%;
+}
+
+select {
+ 
+  appearance: none;
+ 
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  /*cursor: inherit;*/
+  line-height: inherit;
+}
+
+.tickets-user-info-grid-item {
+  grid-area: user-info;
+  background-color: blanchedalmond;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+/* slide show on tickets page 
+https://codepen.io/mobify/pen/DRyBoB */
+
+#slider {
+	overflow: hidden;
+  grid-area: screen;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+#slider figure:hover {
+animation-play-state: paused;
+}
+
+#slider figure img {
+	width: 33.333333333%;
+	height : 100%;
+	float: left;
+}
+
+
+
+
+
 /* footer */
 
 .bottom-bar-grid-item {
