@@ -185,7 +185,7 @@ nav {
     'western-title action-title martial-arts-title'
     'western action martial'
     'footer footer footer';
-  /*background-color: goldenrod;*/
+  background-color: whitesmoke;
   gap: 5px;
   padding: 10px;
   height: 100vh;
@@ -230,20 +230,29 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: black;
   font-size: 48px;
 } 
+
+
 
 .listings-action-grid-item {
   grid-area: action;
   align-items: center;
-  height: 40vh;
-  background-image: url('../images/action3.webp');
+  height: 100%;
+  width: auto;
+  background-image: url('../images/final4.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  font-size: 48px;
+  font-size: 20px;
+}
+
+.listings-action-grid-item ul {
+  list-style-type: none;
+  padding-left: 25%;
+  padding-top: 5%;
 }
 
 .listings-martial-art-grid-item {
