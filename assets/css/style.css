@@ -186,7 +186,7 @@ nav {
     'western action martial'
     'footer footer footer';
   background-color: whitesmoke;
-  gap: 5px;
+  gap: 3px;
   padding: 10px;
   height: 100vh;
 
@@ -222,62 +222,104 @@ nav {
   justify-content: center;
 }
 
+
+
+
+
+
+.listings-text {
+  /*position: relative;*/
+  /*z-index: 1;*/
+  /*background-color: rgba(241, 109, 107, .9);*/
+  /*https://www.w3docs.com/snippets/css/how-to-add-a-background-color-for-the-text-width-instead-of-the-entire-element-width.html*/
+
+  display: table;
+  margin: 15px auto 0px auto;
+  padding: 15px;
+  background-color: rgb(97, 69, 69);
+  color: #fff; 
+  opacity: .97;
+
+  /*Brightly Orange Number 2: #f43a09
+  Grandpa Orange: #ffb766
+  Grey Blue Green: #c2edda
+  Live Green: #68d388*/
+}
+
 .listings-western-grid-item {
   grid-area: western;
   align-items: center;
-  height: 40vh;
-  background-image: url('../images/western2.webp');
+  height: 100%;
+  width: auto;
+  background-image: url('../images/listings-western-small.jpg');
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: black;
-  font-size: 48px;
-} 
+  font-size: 20px;
+}
 
+.listings-western-grid-item ul {
+  list-style-type: none;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
+.listings-western-grid-item a {
+  color:white;
+}
 
 .listings-action-grid-item {
   grid-area: action;
   align-items: center;
   height: 100%;
   width: auto;
-  background-image: url('../images/final4.jpg');
+  background-image: url('../images/listings-action-small.jpg');
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
   font-size: 20px;
 }
 
 .listings-action-grid-item ul {
   list-style-type: none;
-  padding-left: 25%;
+  padding-left: 15%;
+  padding-right: 10%;
   padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+.listings-action-grid-item a {
+  color:white;
+}
+
+
+
 
 .listings-martial-art-grid-item {
   grid-area: martial;
   align-items: center;
-  height: 40vh;
-  background-image: url('../images/KungFuLineArt.jpg');
+  height: 100%;
+  width: auto;
+  background-image: url('../images/listings-martial-arts-small2.jpg');
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  font-size: 48px;
+  font-size: 20px;
 }
 
-/*.listings-martial-art-grid-item>img {
-  object-fit: cover;
-  width: 100%;
-  height: 40vh;
-  opacity: 0.4;
-}*/
+.listings-martial-art-grid-item ul {
+  list-style-type: none;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.listings-martial-art-grid-item a {
+  color:white;
+}
+
 
 
 /* tickets grid */
 
-.tickets-grid-container {
+.tickets-martial-art-grid-container {
   display: grid;
   grid-template-columns: auto;
   /*grid-template-rows: 20vh 40vh 30vh 10vh; */
@@ -305,22 +347,22 @@ nav {
 }
 
 .tickets-movie-list-grid-item div {
-    padding: 20px;
+  padding: 20px;
 }
 
 form {
-    background-color: #f0f0f0;
-    height: 100%;
+  background-color: #f0f0f0;
+  height: 100%;
 }
 
 #movie-list {
-    height: 100%;
+  height: 100%;
 }
 
 select {
- 
+
   appearance: none;
- 
+
   background-color: transparent;
   border: none;
   padding: 0 1em 0 0;
@@ -374,33 +416,54 @@ select {
 https://codepen.io/mobify/pen/DRyBoB */
 
 #slider {
-	overflow: hidden;
+  overflow: hidden;
   grid-area: screen;
 }
 
 @keyframes slider {
-	0% { left: 0; }
-	30% { left: 0; }
-	33% { left: -100%; }
-	63% { left: -100%; }
-	66% { left: -200%; }
-	95% { left: -200%; }
-	100% { left: 0; }
+  0% {
+    left: 0;
+  }
+
+  30% {
+    left: 0;
+  }
+
+  33% {
+    left: -100%;
+  }
+
+  63% {
+    left: -100%;
+  }
+
+  66% {
+    left: -200%;
+  }
+
+  95% {
+    left: -200%;
+  }
+
+  100% {
+    left: 0;
+  }
 }
+
 #slider figure {
-	width:300%;
-	position: relative;
-	animation: 9s slider infinite;
+  width: 300%;
+  position: relative;
+  animation: 9s slider infinite;
 }
 
 #slider figure:hover {
-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 #slider figure img {
-	width: 33.333333333%;
-	height : 100%;
-	float: left;
+  width: 33.333333333%;
+  height: 100%;
+  float: left;
 }
 
 
