@@ -340,10 +340,6 @@ nav {
 
 .listings-martial-art-grid-item ul {
   list-style-type: none;
-  /*padding-left: 15%;
-  padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;*/
   padding: 20px;
 }
 
@@ -353,95 +349,101 @@ nav {
 
 
 
+
+
+
+
+
 /* tickets grid */
 
-.tickets-martial-art-grid-container {
+.tickets-grid-container {
   display: grid;
   grid-template-columns: auto;
-  /*grid-template-rows: 20vh 40vh 30vh 10vh; */
   grid-template-rows: auto;
   grid-template-areas:
     'header header header'
-    'movie-list screen screen'
     'user-info screen screen'
     'footer footer footer';
-  background-color: gold;
+    background-color: #F0FFF0;
   gap: 5px;
   padding: 10px;
-  height: 100vh;
-}
-
-
-
-.tickets-movie-list-grid-item {
-  grid-area: movie-list;
-  background-color: blanchedalmond;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  padding: 20px;
-}
-
-.tickets-movie-list-grid-item div {
-  padding: 20px;
-}
-
-form {
-  background-color: #f0f0f0;
-  height: 100%;
-}
-
-#movie-list {
-  height: 100%;
-}
-
-select {
-
-  appearance: none;
-
-  background-color: transparent;
-  border: none;
-  padding: 0 1em 0 0;
-  margin: 0;
-  width: 100%;
-  font-family: inherit;
-  font-size: inherit;
-  /*cursor: inherit;*/
-  line-height: inherit;
 }
 
 .tickets-user-info-grid-item {
   grid-area: user-info;
-  background-color: blanchedalmond;
   align-items: center;
   width: 100%;
   height: auto;
   padding: 20px;
 }
 
+form {
+  height: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+form label {
+  font-size: 24px;
+}
+
+input[type=text] {
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 25px;
+  border: 2px solid #301934;
+  border-radius: 4px;
+  background-color: #CBC3E3;
+  color: #301934;
+}
+
+input[type=email] {
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 40px;
+  border: 2px solid #301934;
+  border-radius: 4px;
+  background-color: #CBC3E3;
+  color: #301934;
+}
+
+select {
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-bottom: 25px;
+  border: 2px solid #301934;
+  border-radius: 4px;
+  background-color: #CBC3E3;
+  color: #301934;
+}
+
 .button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
+
+  width: 100%; 
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #301934;
+  border-radius: 4px;
+ 
+  background-color: #301934;
+  color: #F0FFF0;
+  height: 80px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  font-size: 40px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
 
-.button {
-  background-color: white;
-  color: black;
-  border: 2px solid #4CAF50;
+.button:hover {
+  color:#7FFF00;
 }
 
-.button:hover {
-  background-color: #4CAF50;
-  color: white;
-}
+
+
 
 
 
@@ -460,27 +462,21 @@ https://codepen.io/mobify/pen/DRyBoB */
   0% {
     left: 0;
   }
-
   30% {
     left: 0;
   }
-
   33% {
     left: -100%;
   }
-
   63% {
     left: -100%;
   }
-
   66% {
     left: -200%;
   }
-
   95% {
     left: -200%;
   }
-
   100% {
     left: 0;
   }
@@ -516,7 +512,6 @@ https://codepen.io/mobify/pen/DRyBoB */
   font-size: 40px;
   background-color: #301934;
   font-family: "Montserrat", sans-serif;
-  color: black;
   letter-spacing: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -526,8 +521,8 @@ https://codepen.io/mobify/pen/DRyBoB */
 .soc-media-links {
   display: flex;
   list-style: none;
-  color: white;
-  /*padding-left: 40px;*/
+  color: #F0FFF0;
+ 
 }
 
 .soc-media-links:hover {
