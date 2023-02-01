@@ -48,11 +48,11 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   align-items: center;
-  color: white;
+  color: #F0FFF0;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 40px;
-  background-color: blueviolet;
+  font-size: 45px;
+  background-color: #301934;
   font-family: "Montserrat", sans-serif;
   height: 10vh;
 }
@@ -77,7 +77,7 @@ nav {
 .nav-list {
   display: flex;
   justify-content: center;
-  width: 25%;
+  /*width: 25%;*/
 }
 
 .nav-list li {
@@ -86,7 +86,7 @@ nav {
 }
 
 .nav-list a {
-  color: white;
+  color: #F0FFF0;
   text-decoration: none;
   letter-spacing: 3px;
   font-weight: bold;
@@ -95,8 +95,8 @@ nav {
 }
 
 .nav-list a:hover:not(.active) {
-  background-color: white;
-  color: blueviolet;
+  background-color: #F0FFF0;
+  color: #301934;
 }
 
 .nav-list li a.active {
@@ -171,59 +171,91 @@ nav {
   height: 40vh;
 }
 
+
+
 /* listings grid items */
-
-
 
 .listings-grid-container {
   display: grid;
   grid-template-columns: auto;
-  /*grid-template-rows: 20vh 40vh 30vh 10vh; */
+  /*grid-template-rows: 15vh 15vh 60vh 10vh;*/
   grid-template-rows: auto;
   grid-template-areas:
     'header header header'
     'western-title action-title martial-arts-title'
     'western action martial'
     'footer footer footer';
-  background-color: whitesmoke;
+  background-color: #F0FFF0;
   gap: 3px;
   padding: 10px;
-  height: 100vh;
+  /*height: 100vh;*/
 
 }
 
 .title-western {
   grid-area: western-title;
-  background-color: rgb(215, 255, 205);
-  height: 5vh;
-
+  font-size: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.title-western p {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: red;
+}
+
+.title-western i {
+  font-size: 50px;
+
 }
 
 .title-action {
   grid-area: action-title;
-  background-color: rgb(255, 205, 205);
-  height: 5vh;
-
+  font-size: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  color: black;
 }
+
+.title-action p {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: red;
+}
+
+.title-action i {
+  font-size: 50px;
+}
+
 
 .title-martial-arts {
   grid-area: martial-arts-title;
-  background-color: rgb(218, 205, 255);
-  height: 5vh;
-
+  font-size: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  color: black;
 }
 
+.title-martial-arts p {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: red;
+}
 
-
+.title-martial-arts i {
+  font-size: 50px;
+}
 
 
 
@@ -235,9 +267,9 @@ nav {
 
   display: table;
   margin: 15px auto 0px auto;
-  padding: 15px;
-  background-color: rgb(97, 69, 69);
-  color: #fff; 
+  padding: 20px;
+  background-color: #301934;
+  color: #F0FFF0;
   opacity: .97;
 
   /*Brightly Orange Number 2: #f43a09
@@ -253,19 +285,19 @@ nav {
   width: auto;
   background-image: url('../images/listings-western-small.jpg');
   background-position: center;
-  font-size: 20px;
+  font-size: 25px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .listings-western-grid-item ul {
   list-style-type: none;
-  padding-left: 15%;
-  padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+
+  padding: 20px;
 }
 
 .listings-western-grid-item a {
-  color:white;
+  color: #F0FFF0;
 }
 
 .listings-action-grid-item {
@@ -275,19 +307,20 @@ nav {
   width: auto;
   background-image: url('../images/listings-action-small.jpg');
   background-position: center;
-  font-size: 20px;
+  font-size: 25px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .listings-action-grid-item ul {
   list-style-type: none;
-  padding-left: 15%;
-  padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+
+  padding: 20px;
+
 }
 
 .listings-action-grid-item a {
-  color:white;
+  color: #F0FFF0;
 }
 
 
@@ -300,19 +333,22 @@ nav {
   width: auto;
   background-image: url('../images/listings-martial-arts-small2.jpg');
   background-position: center;
-  font-size: 20px;
+  font-size: 25px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .listings-martial-art-grid-item ul {
   list-style-type: none;
-  padding-left: 15%;
+  /*padding-left: 15%;
   padding-right: 10%;
   padding-top: 5%;
-  padding-bottom: 5%;
+  padding-bottom: 5%;*/
+  padding: 20px;
 }
 
 .listings-martial-art-grid-item a {
-  color:white;
+  color: #F0FFF0;
 }
 
 
@@ -478,10 +514,12 @@ https://codepen.io/mobify/pen/DRyBoB */
   justify-content: space-around;
   align-items: center;
   font-size: 40px;
-  background-color: blueviolet;
+  background-color: #301934;
   font-family: "Montserrat", sans-serif;
   color: black;
   letter-spacing: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
