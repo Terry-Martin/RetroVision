@@ -24,12 +24,12 @@ body {
   grid-template-areas:
     'header header header'
     'main-left main-right main-right'
+    'western-title action-title martial-arts-title'
     'western action martial'
     'footer footer footer';
-  /*background-color: goldenrod;*/
-  gap: 5px;
+  background-color: #F0FFF0;
+  gap: 3px;
   padding: 10px;
-  /*height: 100vh;*/
 }
 
 /* logo, heading and nav bar */
@@ -72,7 +72,6 @@ nav {
 .nav-list {
   display: flex;
   justify-content: center;
-  /*width: 25%;*/
 }
 
 .nav-list li {
@@ -109,12 +108,23 @@ nav {
   align-items: center;
   width: 100%;
   height: auto;
+  min-height: 500px;
 }
 
+.welcome-grid-item p {
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
 
+  font-size: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 9px;
 
+}
 
-
+#index-first-p {
+  padding-top: 50px;
+}
 
 .venue-grid-item {
   grid-area: main-right;
@@ -127,25 +137,21 @@ nav {
   object-fit: cover;
   width: 100%;
   height: auto;
+  min-height: 500px
 }
-
-
-
-
 
 .index-venue-text {
   position: relative;
 }
 
 .index-venue-text-text {
-/*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+  /*https://www.w3schools.com/howto/howto_css_image_text.asp*/
 
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-
+  top: 2%;
+  right: 3%;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Oswald', sans-serif;
   display: table;
   margin: 15px auto 0px auto;
   padding: 20px;
@@ -160,20 +166,68 @@ nav {
 
 
 
+.index-title-western {
+  grid-area: western-title;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: red;
+}
+
+.index-title-action {
+  grid-area: action-title;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: red;
+}
+
+.index-title-martial-arts {
+  grid-area: martial-arts-title;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  color: red;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 .western-grid-item {
   grid-area: western;
   align-items: center;
-  width: 100%;
+  /*width: 100%;*/
   height: auto;
+  
 }
 
 .western-grid-item img {
   object-fit: cover;
   width: 100%;
   height: auto;
-  max-height: 40%;
+  
+  
 }
 
 .action-grid-item {
@@ -187,7 +241,8 @@ nav {
   object-fit: cover;
   width: 100%;
   height: auto;
-  max-height: 40%;
+  min-height: 200px;
+  
 }
 
 .martial-art-grid-item {
@@ -201,7 +256,7 @@ nav {
   object-fit: cover;
   width: 100%;
   height: auto;
-  max-height: 40%;
+  min-height: 200px;
 }
 
 
@@ -393,7 +448,7 @@ nav {
     'user-info screen screen'
     'footer footer footer';
   background-color: #F0FFF0;
-  gap: 5px;
+  gap: 3px;
   padding: 10px;
 }
 
