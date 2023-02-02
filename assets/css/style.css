@@ -11,7 +11,7 @@
 body {
   font-family: lato, sans-serif;
   /*font-weight: 300;*/
-  color: darkslategray;
+  background-color: #F0FFF0
 }
 
 /* grid set up with 4 rows and 3 columns*/
@@ -108,7 +108,7 @@ nav {
   align-items: center;
   width: 100%;
   height: auto;
-  min-height: 500px;
+  /*min-height: 500px;*/
 }
 
 .welcome-grid-item p {
@@ -137,7 +137,7 @@ nav {
   object-fit: cover;
   width: 100%;
   height: auto;
-  min-height: 500px
+  /*min-height: 500px*/
 }
 
 .index-venue-text {
@@ -219,15 +219,15 @@ nav {
   align-items: center;
   /*width: 100%;*/
   height: auto;
-  
+
 }
 
 .western-grid-item img {
   object-fit: cover;
   width: 100%;
   height: auto;
-  
-  
+
+
 }
 
 .action-grid-item {
@@ -241,8 +241,8 @@ nav {
   object-fit: cover;
   width: 100%;
   height: auto;
-  min-height: 200px;
-  
+  /*min-height: 200px;*/
+
 }
 
 .martial-art-grid-item {
@@ -256,7 +256,7 @@ nav {
   object-fit: cover;
   width: 100%;
   height: auto;
-  min-height: 200px;
+  /*min-height: 200px;*/
 }
 
 
@@ -614,4 +614,96 @@ https://codepen.io/mobify/pen/DRyBoB */
 .soc-media-links:hover {
   color: rgb(250, 250, 6);
 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+/* for larger to medium screen sizes from 1200px wide and down */
+@media screen and (max-width:1200px) {
+  .index-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header header'
+      'main-left main-left'
+      'main-right main-right'
+      'western-title action-title'
+      'western action'
+      'martial-arts-title martial-arts-title'
+      'martial martial'
+      'footer footer';
+
+
+    background-color: #F0FFF0;
+    gap: 3px;
+    padding: 10px;
+  }
+}
+
+/* for larger to medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+  
+  .index-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header'
+      'main-left'
+      'main-right'
+      'western-title'
+      'western'
+      'action-title'
+      'action'
+      'martial-arts-title'
+      'martial'
+      'footer';
+
+
+    background-color: #F0FFF0;
+    gap: 3px;
+    padding: 10px;
+  }
+}
+
+
+/* for mobile 720px wide and down */
+@media screen and (max-width: 720px) {
+  
+  .index-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header'
+      'main-left'
+      'main-right'
+      'western-title'
+      'western'
+      'action-title'
+      'action'
+      'martial-arts-title'
+      'martial'
+      'footer';
+
+
+    background-color: #F0FFF0;
+    gap: 3px;
+    padding: 10px;
+    max-width: 720px;
+  }
 }
