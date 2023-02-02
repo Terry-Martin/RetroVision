@@ -728,6 +728,24 @@ https://codepen.io/mobify/pen/DRyBoB */
 
 /* for mobile 720px wide and down */
 @media screen and (max-width: 720px) {
+
+
+
+  .top-bar-grid-item {
+    padding: 2px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    height: 10vh;
+  }
+  
+  .top-bar-grid-item i {
+    font-size: 16px;
+  }
+  
+  .nav-list a {
+    letter-spacing: 3px;
+    padding: 2px 4px;
+  }
   
   .index-grid-container {
     display: grid;
