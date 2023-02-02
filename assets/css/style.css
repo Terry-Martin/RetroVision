@@ -9,7 +9,6 @@
 }
 
 body {
-  /*overflow: hidden;*/
   font-family: lato, sans-serif;
   /*font-weight: 300;*/
   color: darkslategray;
@@ -20,22 +19,18 @@ body {
 .index-grid-container {
   display: grid;
   grid-template-columns: auto;
-  /*grid-template-rows: 20vh 40vh 30vh 10vh; */
+  /*grid-template-rows: 10vh 55vh 25vh 10vh; */
   grid-template-rows: auto;
   grid-template-areas:
     'header header header'
     'main-left main-right main-right'
     'western action martial'
     'footer footer footer';
-  background-color: goldenrod;
+  /*background-color: goldenrod;*/
   gap: 5px;
   padding: 10px;
-  height: 100vh;
-  color: black;
-
+  /*height: 100vh;*/
 }
-
-
 
 /* logo, heading and nav bar */
 
@@ -111,65 +106,107 @@ nav {
 
 .welcome-grid-item {
   grid-area: main-left;
-  background-color: blanchedalmond;
   align-items: center;
-  height: 30vh;
-
+  width: 100%;
+  height: auto;
 }
+
+
+
+
+
 
 .venue-grid-item {
   grid-area: main-right;
-  background-color: rgb(255, 205, 236);
   align-items: center;
-  height: 30vh;
-
+  width: 100%;
+  height: auto;
 }
 
-.venue-grid-item>img {
+.venue-grid-item img {
   object-fit: cover;
   width: 100%;
-  height: 30vh;
+  height: auto;
 }
+
+
+
+
+
+.index-venue-text {
+  position: relative;
+}
+
+.index-venue-text-text {
+/*https://www.w3schools.com/howto/howto_css_image_text.asp*/
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+
+  display: table;
+  margin: 15px auto 0px auto;
+  padding: 20px;
+  background-color: #301934;
+  color: #F0FFF0;
+  opacity: .97;
+}
+
+
+
+
+
+
+
 
 
 .western-grid-item {
   grid-area: western;
-  background-color: darkmagenta;
   align-items: center;
-  height: 40vh;
+  width: 100%;
+  height: auto;
 }
 
-.western-grid-item>img {
+.western-grid-item img {
   object-fit: cover;
   width: 100%;
-  height: 40vh;
+  height: auto;
+  max-height: 40%;
 }
 
 .action-grid-item {
   grid-area: action;
-  background-color: brown;
   align-items: center;
-  height: 40vh;
+  width: 100%;
+  height: auto;
 }
 
 .action-grid-item>img {
   object-fit: cover;
   width: 100%;
-  height: 40vh;
+  height: auto;
+  max-height: 40%;
 }
 
 .martial-art-grid-item {
   grid-area: martial;
-  background-color: fuchsia;
   align-items: center;
-  height: 40vh;
+  width: 100%;
+  height: auto;
 }
 
 .martial-art-grid-item>img {
   object-fit: cover;
   width: 100%;
-  height: 40vh;
+  height: auto;
+  max-height: 40%;
 }
+
+
+
+
 
 
 
@@ -189,7 +226,6 @@ nav {
   gap: 3px;
   padding: 10px;
   /*height: 100vh;*/
-
 }
 
 .title-western {
@@ -260,9 +296,6 @@ nav {
 
 
 .listings-text {
-  /*position: relative;*/
-  /*z-index: 1;*/
-  /*background-color: rgba(241, 109, 107, .9);*/
   /*https://www.w3docs.com/snippets/css/how-to-add-a-background-color-for-the-text-width-instead-of-the-entire-element-width.html*/
 
   display: table;
@@ -271,11 +304,6 @@ nav {
   background-color: #301934;
   color: #F0FFF0;
   opacity: .97;
-
-  /*Brightly Orange Number 2: #f43a09
-  Grandpa Orange: #ffb766
-  Grey Blue Green: #c2edda
-  Live Green: #68d388*/
 }
 
 .listings-western-grid-item {
@@ -364,7 +392,7 @@ nav {
     'header header header'
     'user-info screen screen'
     'footer footer footer';
-    background-color: #F0FFF0;
+  background-color: #F0FFF0;
   gap: 5px;
   padding: 10px;
 }
@@ -383,12 +411,13 @@ form {
   font-weight: bold;
   padding-top: 20px;
 }
+
 form label {
   font-size: 24px;
 }
 
 input[type=text] {
-  width: 100%; 
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   margin-bottom: 25px;
@@ -399,7 +428,7 @@ input[type=text] {
 }
 
 input[type=email] {
-  width: 100%; 
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   margin-bottom: 40px;
@@ -410,7 +439,7 @@ input[type=email] {
 }
 
 select {
-  width: 100%; 
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   margin-bottom: 25px;
@@ -422,12 +451,12 @@ select {
 
 .button {
 
-  width: 100%; 
+  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   border: 2px solid #301934;
   border-radius: 4px;
- 
+
   background-color: #301934;
   color: #F0FFF0;
   height: 80px;
@@ -439,14 +468,8 @@ select {
 }
 
 .button:hover {
-  color:#7FFF00;
+  color: #7FFF00;
 }
-
-
-
-
-
-
 
 
 
@@ -456,27 +479,35 @@ https://codepen.io/mobify/pen/DRyBoB */
 #slider {
   overflow: hidden;
   grid-area: screen;
+  width: 100%;
+  height: auto;
 }
 
 @keyframes slider {
   0% {
     left: 0;
   }
+
   30% {
     left: 0;
   }
+
   33% {
     left: -100%;
   }
+
   63% {
     left: -100%;
   }
+
   66% {
     left: -200%;
   }
+
   95% {
     left: -200%;
   }
+
   100% {
     left: 0;
   }
@@ -522,7 +553,7 @@ https://codepen.io/mobify/pen/DRyBoB */
   display: flex;
   list-style: none;
   color: #F0FFF0;
- 
+
 }
 
 .soc-media-links:hover {
