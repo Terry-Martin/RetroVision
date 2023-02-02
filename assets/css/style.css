@@ -729,24 +729,22 @@ https://codepen.io/mobify/pen/DRyBoB */
 /* for mobile 720px wide and down */
 @media screen and (max-width: 720px) {
 
-
-
   .top-bar-grid-item {
-    padding: 2px;
-    letter-spacing: 2px;
-    font-size: 16px;
+    padding: 3px;
+    letter-spacing: 1px;
+    font-size: 20px;
     height: 10vh;
   }
-  
+
   .top-bar-grid-item i {
     font-size: 16px;
   }
-  
+
   .nav-list a {
-    letter-spacing: 3px;
-    padding: 2px 4px;
+    letter-spacing: 1px;
+    padding: 1px;
   }
-  
+
   .index-grid-container {
     display: grid;
     grid-template-columns: auto;
@@ -765,7 +763,7 @@ https://codepen.io/mobify/pen/DRyBoB */
       'footer';
     background-color: #F0FFF0;
     gap: 3px;
-    padding: 10px;
+    padding: 3px;
     max-width: 720px;
   }
 
@@ -784,22 +782,22 @@ https://codepen.io/mobify/pen/DRyBoB */
       'footer';
     background-color: #F0FFF0;
     gap: 3px;
-    padding: 10px;
+    padding: 3px;
     max-width: 720px;
   }
 
-    .tickets-grid-container {
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto;
-      grid-template-areas:
-        'header'
-        'user-info'
-        'screen'
-        'footer';
-      background-color: #F0FFF0;
-      gap: 3px;
-      padding: 10px;
-      max-width: 720px;
-    }
+  .tickets-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'header'
+      'user-info'
+      'screen'
+      'footer';
+    background-color: #F0FFF0;
+    gap: 3px;
+    padding: 3px;
+    max-width: 720px;
+  }
 }

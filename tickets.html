@@ -42,29 +42,29 @@
         </header>
 
         <div class="tickets-user-info-grid-item">
-            <form action="/action_page.php" method="get" target="_blank">
+            <form action="https://formdump.codeinstitute.net/" method="POST" id="book-now">
                 <label for="movie-list">Choose Movie</label>
-                <select id="movie-list" name="movie-list">
-                    <option value="1">The Good, the Bad and the Ugly</option>
-                    <option value="2">Once Upon a Time in the West</option>
+                <select id="movie-list" name="movie-list" required>
+                    <option value="1">Unforgiven</option>
+                    <option value="2">Fistful of Dollars</option>
                     <option value="3">True Romance</option>
                     <option value="4">Robocop</option>
                     <option value="5">Kickboxer</option>
                     <option value="6">The Street Fighter</option>
                 </select>
                 <label for="fname">First Name:</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname" required>
                 <br>
                 <label for="lname">Last Name:</label>
-                <input type="text" id="lname" name="lname">
+                <input type="text" id="lname" name="lname" required>
                 <br>
                 <label for="phone">Phone:</label>
-                <input type="text" id="phone" name="phone">
+                <input type="text" id="phone" name="phone" required>
                 <br>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
                 <br>
-                <button type="button" class="button"><strong>Buy Ticket</strong></button>
+                <button type="submit" class="button" form="book-now"><strong>Buy Ticket</strong></button>
             </form>
         </div>
 
