@@ -1,7 +1,7 @@
 # RetroVision
 (Developer: Terry Martin)
 
-![Mockup image](docs/responsive.png)
+![Mockup image](assets/images/readme/published3.jpg)
 
 [Live webpage](https://terry-martin.github.io/RetroVision/index.html)
 
@@ -17,9 +17,8 @@
 3. [Design](#design)
     1. [Design Choices](#design-choices)
     2. [Colour](#colour)
-    3. [Fonts](#fonts)
-    4. [Structure](#structure)
-    5. [Wireframes](#wireframes)
+    3. [Structure](#structure)
+    4. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
     2. [Frameworks and Tools](#frameworks-and-tools)
@@ -113,9 +112,6 @@ The website was designed to give a friendly, engaging tone with our potential cu
 ### Colour
 Minimal colours were utilised in this website and were consitent for each page. CHanging colour was used to highligh user actions in nav bar and footer. Images on Listings page were AI generated art with a "Retro" style. Again, that matched the clean, reduced colour number atmosphere. 
 
-### Fonts
-
-
 ### Structure
 Each of the 3 webpages was set up with a basic Grid to allow for more simplistic responsivity for different screen sizes by reducing column count for smaller screens. The Header and Footer are consitent for the 3 pages.:
 - Index page: Gives a welcome message and explians new features to the relaunched website. Details venue features along with a n image of same. Highlights the three film genres that the cinema concentrates on with three images and text heading.
@@ -124,19 +120,22 @@ Each of the 3 webpages was set up with a basic Grid to allow for more simplistic
 
 
 ### Wireframes
-<details><summary>Home</Summary>
-<img src="docs/wireframes/index.png">  
-</details>
-<details><summary>Listings</Summary>
-<img src="docs/wireframes/tricks.png">  
-</details>
-<details><summary>Tickets</Summary>
-<img src="docs/wireframes/boards.png">  
-</details>
-<details><summary>Contact Us</Summary>
-<img src="docs/wireframes/contact.png">  
-</details>
 
+- Index page
+
+![Mockup image](assets/images/readme/wireframe-index.jpg)
+
+- Listings page
+
+![Mockup image](assets/images/readme/wireframe-listings.jpg)
+
+- Tickets page
+
+![Mockup image](assets/images/readme/wireframe-tickets.jpg)
+
+- Contact Us page (not included in website but would be added to include Google Map)
+
+![Mockup image](assets/images/readme/wireframe-contact-us.jpg)
 
 ## Technologies Used
 
@@ -158,25 +157,53 @@ The following frameworks and tools were used to develop the website:
 
 ## Features
 
-
 ### Header (Logo, Title and Navigation Bar)
 - Consistent on each page
 - Font size reduced for smalled devices
 - Hightlights which page user is currently on
 - Page name changes colour/background when mouse over
 
-<details><summary>Header</Summary>
-<img src="docs/features/Header.png">  
-</details>
+![Mockup image](assets/images/readme/header.jpg)
 
 ### Footer
 - Shows on every page like the header
 - Like the header, the social links also stack underneath the copyright text on smaller screens
 
-<details><summary>Footer</Summary>
-<img src="docs/features/Footer.png">  
-</details>
+![Mockup image](assets/images/readme/footer.jpg)
 
+### Index-->Welcome
+- Advises users of relaunch of website and upcoming features
+
+![Mockup image](assets/images/readme/index-welcome.jpg)
+
+### Index-->Venue
+- Shows an image of the venue
+- Contains details about venue capacity, pricing and age restrictions
+
+![Mockup image](assets/images/readme/index-main-pic-and-venue-details.jpg)
+
+### Index-->Film Genre
+- Shows a heading and an image of each of the three feature film genres - Western, Martial Arts and Action
+
+![Mockup image](assets/images/readme/index-genre-pic-heading.jpg)
+
+### Listings-->Current days movie listings
+- Shows the films on offer for current week. Three days. Each day dedicated to one genre
+- Show movie details, ticket availability, link to imdb page and link to internal booking page
+
+![Mockup image](assets/images/readme/listings-daily-movies.jpg)
+
+### Tickets-->Booking Form
+- Allows selection of movie
+- Captures user info
+- Book tickets button with confimration
+
+![Mockup image](assets/images/readme/tickets-info-reserve-form.jpg
+
+### Tickets--> Slideshow
+- Shows three images for the genres rotating automatically in slideshow format
+
+![Mockup image](assets/images/readme/tickets-image-slideshow.jpg)
 
 ## Validation
 
@@ -184,57 +211,15 @@ The following frameworks and tools were used to develop the website:
 
 The W3C Validator is used to validate HTML documents. This ensures that all unintended mistakes are spotted before release, so that they can be corrected. All of my pages passed the check without any errors.
 
-<details><summary>Home</Summary>
-<img src="docs/Validation/HTML/index.png">  
-</details>
-
-<details><summary>Listings</Summary>
-<img src="docs/Validation/HTML/tricks.png">  
-</details>
-
-<details><summary>Bookings</Summary>
-<img src="docs/Validation/HTML/boards.png">  
-</details>
-
-### CSS Validation
-
 The W3C Jigsaw CSS Validator is used to validate HTML documents. This ensures that all unintended mistakes are spotted before release, so that they can be corrected. All of my pages passed the check without any errors.
-
-<details><summary>Web Page</Summary>
-<img src="docs/Validation/CSS/CSS.png">
-</details>
 
 ### Accessibility
 
 The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webpages met accessibility standards. All 3 pages passed without any errors.
 
-<details><summary>Home</Summary>
-<img src="docs/Validation/Accessibility/index.png">
-</details>
-
-<details><summary>Tricks</Summary>
-<img src="docs/Validation/Accessibility/tricks.PNG">
-</details>
-
-<details><summary>Boards</Summary>
-<img src="docs/Validation/Accessibility/boards.PNG">
-</details>
-
 ### Performance
 
 The Google Lighthouse tool, within the Google Chrome Developer Tools was used to ensure that each page met a high performance rating. This shows that the website will load efficiently over various devices.
-
-<details><summary>Home</Summary>
-<img src="docs/Validation/Performance/index.png">
-</details>
-
-<details><summary>Tricks</Summary>
-<img src="docs/Validation/Performance/tricks.png">
-</details>
-
-<details><summary>Boards</Summary>
-<img src="docs/Validation/Performance/boards.png">
-</details>
 
 ### Performance tests on various devices
 
@@ -251,115 +236,43 @@ The website was tested on several web browsers to ensure consistency. The browse
 
 ### Testing User Stories
 
-1. As a first time user, I want to understand the product
+Story - As a first time user, I want to ensure tickets are available for this particular movie
+Solution - Link to Tickets form from every page of website. Listings page has a linethrough for any unavailable movie. Book now option disabled from that page.
 
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Tricks | Navigate to the Tricks page and find any Trick | See the tricks | Works as expected |
-| Trick Videos | Navigate to the Tricks page and find any Trick Video | See the trick videos | Works as expected |
-| Why Choose Us? | Navigate to the Home page and scoll down | See the Why Choose Us? section | Works as expected |
-| Boards | Navigate to the Boards page | See the page containing all the products | Works as expected |
-| Products | Navigate to the Boards page, and scroll down | See all of the products available | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Tricks</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksTest.png">
-  </details>
-  <details><summary>Tricks Videos</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksVideosTest.png">
-  </details>
-  <details><summary>Why Choose Us?</Summary>
-    <img src="docs/Validation/UserStoryTests/WhyChooseUsTestStep1.png">
-    <img src="docs/Validation/UserStoryTests/WhyChooseUsTestStep2.png">
-  </details>
-  <details><summary>Boards</Summary>
-    <img src="docs/Validation/UserStoryTests/BoardsTest.png">
-  </details>
-  <details><summary>Products</Summary>
-    <img src="docs/Validation/UserStoryTests/ProductsTest.png">
-  </details>
-</details>
-
-2. As a first time user, I want to learn about the company
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Footer | Scroll down to the bottom of any page | See the social links | Works as expected |
-| History | Navigate to the Home page and scroll down to the bottom | See the History of Skate Shack section | Works as expected |
-| Google Map | Navigate to the Contact page | See the Google Map | Works as expected |
-| Address | Navigate to the Contact page | See the Address above the Google Map | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Footer</Summary>
-    <img src="docs/Validation/UserStoryTests/FooterTest.png">
-  </details>
-  <details><summary>History</Summary>
-    <img src="docs/Validation/UserStoryTests/HistoryTestStep1.png">
-    <img src="docs/Validation/UserStoryTests/HistoryTestStep2.png">
-  </details>
-  <details><summary>Google Map</Summary>
-    <img src="docs/Validation/UserStoryTests/GoogleMapTest.png">
-  </details>
-  <details><summary>Address</Summary>
-    <img src="docs/Validation/UserStoryTests/AddressTest.png">
-  </details>
-</details>
-
-3. As a first time user, I want to know how much the product costs
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Boards | Navigate to the Boards page | See the page containing all the products | Works as expected |
-| Products | Navigate to the Boards page, and scroll down | See all of the products available | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Boards</Summary>
-    <img src="docs/Validation/UserStoryTests/BoardsTest.png">
-  </details>
-  <details><summary>Products</Summary>
-    <img src="docs/Validation/UserStoryTests/ProductsTest.png">
-  </details>
-</details>
-
+Story - As a first time user, I want to find out any restrictions on entry to venue or age retrictions
+Solution - The age limit and venue opening days/times are displayed on the first page in the main image. 
 
 ## Bugs
 
-| **Bug** | **Fix** |
-|---------|---------|
-| Height for most sections wasn't big enough | Removed the max-height value so the height would be as big as the actual content |
-| Grid items and Borders not fitting sizing | Added box-sixing: border-box and everything looked as it should |
-| Padding issue on tricks page for small mobile phone screens | Removed the padding for smaller screen sizes |
-| Social links not directing properly and not opening in a new tab | Corrected all links with http/https, and made them open in new tabs |
+- Issue: Width of screen on mobile view
+- Solution: Reduce all font-size to 16 and reduce padding/margin for small screens
+
+- Issue: Overlaying text on image within grid item in Listings page
+- Solution: Changed image to background-image
+
+- Issue: Form Button not doing anything when clicked
+- Solution: Removed second form and included all controls in single form
 
 ## Deployment
 
 The website was deployed through the use of GitHub.
-1.  Settings --> Pages --> Deploy from a branch --> Deploy from a branch -->Save
-
+-  Settings --> Pages --> Deploy from a branch --> Deploy from a branch -->Save
 
 ## Credits
 
 #### Images
 
-- "main-hero-image-new.jpg" by "Salvio Bhering" on Pexels
-- "404.jpg" by "Erik McLean" on Pexels
-- "board1.jpg" from "Vol.1 Checker Skateboard Deck (black and white)" on SkatePro.uk
-- "board2.jpg" from "Vol.1 Checker Skateboard Deck (purple and black)" on SkatePro.uk
-- "board3.jpg" from "Vol.1 Tie-Dye Skateboard Deck" on SkatePro.uk
-- "board4.jpg" from "Blue Baker Signature Deck" on SkatePro.uk
-- "board5.jpg" from "Red Baker Signature Deck" on SkatePro.uk
-- "board6.jpg" from "Green Baker Signature Deck" on SkatePro.uk
+-Free images were sourced from Pexels and Pixabay
+-AI images were generated using Craiyon, Starryai and Dream Wombo
 
 ### Code
 
-- HTML: For the interactive google map was taken from google maps.
-- HTML: "i" tags with the icons and the social media link icons were all imported from FontAwesome.
-- CSS: The font "Quicksand" was imported from Google Fonts.
-- HTML: The embedded youtube videos' code was edited to fit my site, but originally from Youtube.
+- HTML/CSS: Sources included in code comments
+- Navigation Menu based on Code Institute example
 
 ## Acknowledgements
 
-I would like to take this opportunity to acknowledge and thank the following people:
-- My mentor Mo Shami for continuous guidance and support.
-- My mother, who always encouraged me to strive for a career that I enjoy.
-- My peers on the Code Institute Slack channels, for advice and feedback.
+I would like to thank the below:
+- Code academy facilitator
+- My classmates
+- Everyone that keeps Slack going. This really helps with general support and solutions for all those nagging code issues.
