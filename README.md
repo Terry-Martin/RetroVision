@@ -1,7 +1,7 @@
 # RetroVision
 (Developer: Terry Martin)
 
-![Mockup image](assets/images/readme/published3.jpg)
+![Mockup image](assets/images/readme/amiresponsive.jpg)
 
 [Live webpage](https://terry-martin.github.io/RetroVision/index.html)
 
@@ -269,6 +269,7 @@ The website was deployed through the use of GitHub.
 
 - HTML/CSS: Sources included in code comments
 - Navigation Menu based on Code Institute example
+- ReadMe file format - from Jarrod Baker
 
 ## Acknowledgements
 
