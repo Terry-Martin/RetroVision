@@ -1,5 +1,5 @@
 # RetroVision
-(Developer: Jarrad Baker)
+(Developer: Terry Martin)
 
 ![Mockup image](docs/responsive.png)
 
@@ -40,97 +40,103 @@
 ## Project Goals
 
 ### User Goals
-- Find good quality skateboards
-- See examples of pricing for the products
-- Learn more about skateboarding
-- Find the location of the store
-- Learn what makes this company different
-- Learn how to use skateboards
+- Find local cinema
+- Browse genre of movies
+- Verify the days the cinema is open
+- Check movies that are showing in current week
+- Confirm start times for each movie
+- Establish price of ticket
+- Check tickets are available for particular movie
+- Reserve tickets to see movie
 
 ### Website Owner Goals
-- Reach the target audience
-- Increase the traffic and sales
-- Direct interaction with customers
-- Show what makes this company different
+- Showcase the features of the venue
+- Promote the film genre and era of movies that are shown
+- Update site users on new features to the website
+- Display current weeks movies
+- Highlight rules for attending cinema
+- Simplyfy ticket booking system for both customer and admin team
+- Advocate for a frindly enviorment and foster a club like atmosphere
+- Increase ticket sales
+- High Search Engine Optimisation
+- Strong performance and webpage load times
 
 ## User Experience
 
 ### Target Audience
-The website is designed with the following target audience in mind:
-- Skateboarders looking to buy a new board
-- People looking to get in to skateboarding
-- Physical skating shops looking for stock
-- Skateboarders looking to learn new tricks
+This website is designed for the below target audience:
+- Fans who appreaciate movies on the big screen
+- People who enjoy Martial Arts, Action and Western movie genres
+- Adults over the age of 18
+- Patrons looking for a fun, inexpensive evening out
+- Folks looking to meet up with friends or new people that share similar interests
 
 ### User Requirements and Expectations
-- Simplistic user interface
-- Smooth Navigation System
-- Easy to find relevant information
-- All social links direct to the correct website
-- Presentation of content is clear
-- Visually appealing design
-- Accessibility
-- Media and functions work as expected
+- Easy to use navigation system to link each internal page
+- Consistentcy of layout and navigation throughout site
+- Scalable for any screen size
+- Quick webpage load times
+- Intuitive access to required information
+- Information on display is up to date
+- Friendly tone throughout web pages
+- Confirmation that actions are complete (especially that tickets are reserved)
 
 ### User Stories
 
 #### First Time User
-1. As a first time user, I want to understand the product
-2. As a first time user, I want to learn about the company
-3. As a first time user, I want to know how much the product costs
-4. As a first time user, I want to learn more about skateboarding
-5. As a first time user, I want to learn how to use the product
-6. As a first time user, I want to ask questions about my order
-7. As a first time user, I want to know why to choose this company
-8. As a first time user, I want to be able to navigate the site easily
+1. As a first time user, I want learn more about the cinema location
+2. As a first time user, I want to know the details about the venue
+3. As a first time user, I want to find out any restrictions on entry to venue or age retrictions
+4. As a first time user, I want to see what movie genres the cinema specialises in
+5. As a first time user, I want to check the opening days and times
+6. As a first time user, I want to verify which movies are on this week
+7. As a first time user, I want to ensure tickets are available for this particular movie
+8. As a first time user, I want to understand the price of tickets
+9. As a first time user, I want to book tickets for the movie I want to see
 
 #### Returning User
-9. As a returning user, I want to be able to contact the company
-10. As a returning user, I want to learn more tricks
-11. As a returning user, I want to learn where a physical store is
-12. As a returning user, I want to look at products
+9. As a returning user, I want to check if i can reserve a particular seat
+10. As a returning user, I want to learn if there are any offers available for multiple viewing or a season pass
+12. As a returning user, I want to make suggestions for future movies
 
 #### Site Owner
-13. As a site owner, I want users to find out about our products
-14. As a site owner, I want users to have a good visual experience when using the website
-15. As a site owner, I want users to be able to see a 404 page if anything goes wrong
-16. As a site owner, I want to enrich our users' skateboarding experience
+13. As a site owner, I want to display the feaures of the venue
+14. As a site owner, I want customers to understand the age restrictions on the venue and the movies
+15. As a site owner, I want patrons to have a positive experience with the website from land page all the way to confirmation taht ticket is booked
+16. As a site owner, I want to have a successful business that I enjoy being part of while also ensuring the customers feel appreicated
 
 ## Design
 
 ### Design Choices
-The website was designed to give a "street" feel to the users, which is why a colder colour theme was used. The images of products and skateboarding were used to engage the users.
+The website was designed to give a friendly, engaging tone with our potential customer base.
 
 ### Colour
-Colour was a very important aspect for engaging with the audience, as anything too childish, or bright may put visitors off. For this reason, I chose to use a nice cold themed colour set for the website, providing a "street" feel. For accessibility reasons, the colours were tested on Webaim using their contrast checker, and the darkest and lightest colours got a contrast ratio of 12.78:1 meaning that they were a great fit.
-![Colours image](docs/Colours.png)
+Minimal colours were utilised in this website and were consitent for each page. CHanging colour was used to highligh user actions in nav bar and footer. Images on Listings page were AI generated art with a "Retro" style. Again, that matched the clean, reduced colour number atmosphere. 
 
 ### Fonts
-The chosen font for the website was "Quicksand", with sans serif as a backup font. I originally also used "Lobster" for headings, but I found that "Quicksand" fitted in much better for my target audience and the feel of the site, so I used a higher weight for the headings to make it appear bolder.
+
 
 ### Structure
-To keep the user interface as beginner friendly, and simple as possible, I went for a classic looking nav bar style. It is a simple layout with the logo to the left on desktops, and above on mobile. The theme remains the same throughout all four pages:
-- Index page: Shows an image of a skateboarder and why you would choose the company. Also contains the history of the company.
-- Tricks page: Gives explanations of how to perform various tricks, enriching the users skateboarding experience. Also has a video for each trick.
-- Boards page: Allows the users to see the products that are available.
-- Contact page: Gives users a chance to communicate with the company, and also shows a real map displaying where the physical store is.
+Each of the 3 webpages was set up with a basic Grid to allow for more simplistic responsivity for different screen sizes by reducing column count for smaller screens. The Header and Footer are consitent for the 3 pages.:
+- Index page: Gives a welcome message and explians new features to the relaunched website. Details venue features along with a n image of same. Highlights the three film genres that the cinema concentrates on with three images and text heading.
+- Listings page: Shows a list of movies that are showingin current week. Gives the name, running time, age restriction, ticket availability and book ticket option for each movie. Title of movie is external link to its IMBD page. Book Ticket option links to internal Tickets page. Any movie sold out is displayed and does not have Book Ticket option. Background image is computer generated for genre with a design emphasis on retro and fun.
+- Tickets page: Allows users to choose which movie they want to see and book it, along with a confirmation. Input fields are validated. Three images of the film genres are showing in rotation, so only one at a time in auto slideshow. Image will pause when mouse hovers on it.
+
 
 ### Wireframes
 <details><summary>Home</Summary>
 <img src="docs/wireframes/index.png">  
 </details>
-<details><summary>Tricks</Summary>
+<details><summary>Listings</Summary>
 <img src="docs/wireframes/tricks.png">  
 </details>
-<details><summary>Boards</Summary>
+<details><summary>Tickets</Summary>
 <img src="docs/wireframes/boards.png">  
 </details>
-<details><summary>Contact</Summary>
+<details><summary>Contact Us</Summary>
 <img src="docs/wireframes/contact.png">  
 </details>
-<details><summary>404</Summary>
-<img src="docs/wireframes/404.png">  
-</details>
+
 
 ## Technologies Used
 
@@ -147,16 +153,18 @@ The following frameworks and tools were used to develop the website:
 - Google Fonts
 - Font Awesome
 - Balsamiq
+- Starryai
+- Dream Wombo
 
 ## Features
-The website contains 5 pages including the 404 page, and a total of 13 features
 
-### Header (logo and navigation)
-- Shows on every page
-- The nav links stack under the logo on smaller screens making it responsive
-- Enables easy and smooth navigation
-- The current page is highlighted in blue
-- User Stories: 8, 14
+
+### Header (Logo, Title and Navigation Bar)
+- Consistent on each page
+- Font size reduced for smalled devices
+- Hightlights which page user is currently on
+- Page name changes colour/background when mouse over
+
 <details><summary>Header</Summary>
 <img src="docs/features/Header.png">  
 </details>
@@ -164,142 +172,41 @@ The website contains 5 pages including the 404 page, and a total of 13 features
 ### Footer
 - Shows on every page like the header
 - Like the header, the social links also stack underneath the copyright text on smaller screens
-- User Stories: 2, 8, 14
+
 <details><summary>Footer</Summary>
 <img src="docs/features/Footer.png">  
 </details>
 
-### Tricks
-- Shows users explanations as well as videos on how to do tricks, enhancing their exoperience.
-- Has an introduction, and an outro
-- User Stories: 1, 4, 5, 10, 16
-<details><summary>Tricks</Summary>
-<img src="docs/features/Tricks.png">  
-</details>
-
-### Trick videos
-- Part of the tricks page
-- Has a video with controls explaining how to do the trick
-- User Stories: 1, 4, 5, 10, 16
-<details><summary>Trick Videos</Summary>
-<img src="docs/features/TrickVideos.png">  
-</details>
-
-### Hero Image
-- Makes the website more appealing and professional looking
-- Connects with the target audience
-- User Stories: 14
-<details><summary>Hero Image</Summary>
-<img src="docs/features/HeroImage.png">  
-</details>
-
-### Why Choose Us?
-- Explains how the site differs from competitors
-- Provides users more info about the products
-- User Stories: 1, 7, 13
-<details><summary>Why Choose Us</Summary>
-<img src="docs/features/WhyChooseUs.png">  
-</details>
-
-### History
-- Gives the user an explanation of the company/website
-- Tells the personal story of the companies creation
-- User Stories: 2, 7
-<details><summary>History</Summary>
-<img src="docs/features/History.png">  
-</details>
-
-### Boards
-- Allows users to see all products available
-- Located on the Boards page
-- User Stories: 1, 3, 12, 13
-<details><summary>Boards</Summary>
-<img src="docs/features/Boards.png">  
-</details>
-
-### Products
-- Shows the user the individual info for each product
-- Allows them to purchase the item
-- Located on the boards page
-- User Stories: 1, 3, 12, 13
-<details><summary>Products</Summary>
-<img src="docs/features/Products.png">  
-</details>
-
-### Contact form
-- Allows users to contact the site owner/company
-- Can be used to chase up an order
-- Located on the contact page
-- User Stories: 6, 9
-<details><summary>Contact Form</Summary>
-<img src="docs/features/ContactForm.png">  
-</details>
-
-### Google Map
-- Shows the location of the physical store on a google maps window
-- Located on the contact page
-- User Stories: 2, 9, 11
-<details><summary>Google Map</Summary>
-<img src="docs/features/GoogleMap.png">  
-</details>
-
-### Address
-- Provides the physical store location
-- Located above the google map
-- User Stories: 2, 9, 11
-<details><summary>Address</Summary>
-<img src="docs/features/Address.png">  
-</details>
-
-### 404 page
-- Redirects the user to a working page
-- Explains what the issue is
-- User Stories: 8, 15
-<details><summary>404 Page</Summary>
-<img src="docs/features/404page.png">  
-</details>
 
 ## Validation
 
 ### HTML Validation
 
-The Nu HTML Checker (W3C) is used to validate HTML documents. This ensures that all unintended mistakes are spotted before release, so that they can be corrected. All of my pages passed the check without any errors, including the 404 page.
+The W3C Validator is used to validate HTML documents. This ensures that all unintended mistakes are spotted before release, so that they can be corrected. All of my pages passed the check without any errors.
 
 <details><summary>Home</Summary>
 <img src="docs/Validation/HTML/index.png">  
 </details>
 
-<details><summary>Tricks</Summary>
+<details><summary>Listings</Summary>
 <img src="docs/Validation/HTML/tricks.png">  
 </details>
 
-<details><summary>Boards</Summary>
+<details><summary>Bookings</Summary>
 <img src="docs/Validation/HTML/boards.png">  
-</details>
-
-<details><summary>Contact</Summary>
-<img src="docs/Validation/HTML/contact.png">   
-</details>
-
-<details><summary>404</Summary>
-<img src="docs/Validation/HTML/404.png">
 </details>
 
 ### CSS Validation
 
-The W3C Jigsaw CSS Validation Service is used in exactly the same way as the Nu HTML Validator, but for CSS. I ran both my actual style.css file, and an actual web page through it, and both passed without any errors.
+The W3C Jigsaw CSS Validator is used to validate HTML documents. This ensures that all unintended mistakes are spotted before release, so that they can be corrected. All of my pages passed the check without any errors.
 
 <details><summary>Web Page</Summary>
 <img src="docs/Validation/CSS/CSS.png">
 </details>
 
-<details><summary>Stylesheet</Summary>
-<img src="docs/Validation/CSS/stylesheet.png">
-</details>
-
 ### Accessibility
 
-The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webpages met accessibility standards. All 5 pages passed without any errors.
+The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webpages met accessibility standards. All 3 pages passed without any errors.
 
 <details><summary>Home</Summary>
 <img src="docs/Validation/Accessibility/index.png">
@@ -311,14 +218,6 @@ The WAVE web accessibility evaluation tool by WebAIM was used to ensure the webp
 
 <details><summary>Boards</Summary>
 <img src="docs/Validation/Accessibility/boards.PNG">
-</details>
-
-<details><summary>Contact</Summary>
-<img src="docs/Validation/Accessibility/contact.PNG">
-</details>
-
-<details><summary>404</Summary>
-<img src="docs/Validation/Accessibility/404.PNG">
 </details>
 
 ### Performance
@@ -335,14 +234,6 @@ The Google Lighthouse tool, within the Google Chrome Developer Tools was used to
 
 <details><summary>Boards</Summary>
 <img src="docs/Validation/Performance/boards.png">
-</details>
-
-<details><summary>Contact</Summary>
-<img src="docs/Validation/Performance/contact.png">
-</details>
-
-<details><summary>404</Summary>
-<img src="docs/Validation/Performance/404.png">
 </details>
 
 ### Performance tests on various devices

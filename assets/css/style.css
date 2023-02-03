@@ -603,17 +603,21 @@ https://codepen.io/mobify/pen/DRyBoB */
   padding-bottom: 10px;
 }
 
-
 .soc-media-links {
   display: flex;
   list-style: none;
   color: #F0FFF0;
-
 }
 
 .soc-media-links:hover {
   color: rgb(250, 250, 6);
+}
 
+.location {
+  color: #F0FFF0;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-right: 5px;
 }
 
 /* media queries */
