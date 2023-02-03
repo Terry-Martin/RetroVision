@@ -240,10 +240,7 @@ The Google Lighthouse tool, within the Google Chrome Developer Tools was used to
 
 Throughout development and testing, I used the following devices to ensure that the site was responsive, and worked as intended.
 
-- Samsung Galaxy ZFold 2 (both ultra slim mode, and wide mode)
-- Microsoft Surface Book 2 (Both as the laptop, and tablet)
-- Macbook Pro
-- Desktop PC with a 32" monitor
+- Samsung Galaxy S23
 
 ### Browser Compatibility
 
@@ -251,9 +248,6 @@ The website was tested on several web browsers to ensure consistency. The browse
 
 - Microsoft Edge
 - Google Chrome
-- Brave Browser (A Chrome based browser)
-- Mozilla Firefox
-- Opera GX
 
 ### Testing User Stories
 
@@ -327,219 +321,6 @@ The website was tested on several web browsers to ensure consistency. The browse
   </details>
 </details>
 
-4. As a first time user, I want to learn more about skateboarding
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Tricks | Navigate to the Tricks page and find any Trick | See the tricks | Works as expected |
-| Trick Videos | Navigate to the Tricks page and find any Trick Video | See the trick videos | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Tricks</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksTest.png">
-  </details>
-  <details><summary>Tricks Videos</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksVideosTest.png">
-  </details>
-</details>
-
-5. As a first time user, I want to learn how to use the product
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Tricks | Navigate to the Tricks page and find any Trick | See the tricks | Works as expected |
-| Trick Videos | Navigate to the Tricks page and find any Trick Video | See the trick videos | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Tricks</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksTest.png">
-  </details>
-  <details><summary>Tricks Videos</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksVideosTest.png">
-  </details>
-</details>
-
-6. As a first time user, I want to ask questions about my order
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Contact form | Navigate to the Contact page | See the Contact form and be able to fill it in | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Contact Form</Summary>
-    <img src="docs/Validation/UserStoryTests/ContactFormTest.png"> 
-  </details>
-</details>
-
-7. As a first time user, I want to know why to choose this company
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Why Choose Us? | Navigate to the Home page and scoll down | See the Why Choose Us? section | Works as expected |
-| History | Navigate to the Home page and scroll down to the bottom | See the History of Skate Shack section | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Why Choose Us?</Summary>
-    <img src="docs/Validation/UserStoryTests/WhyChooseUsTestStep1.png">
-    <img src="docs/Validation/UserStoryTests/WhyChooseUsTestStep2.png">
-  </details>
-  <details><summary>History</Summary>
-    <img src="docs/Validation/UserStoryTests/HistoryTestStep1.png">
-    <img src="docs/Validation/UserStoryTests/HistoryTestStep2.png">
-  </details>
-</details>
-
-8. As a first time user, I want to be able to navigate the site easily
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Header | Scroll up to the top of any page | See the logo and nav bar | Works as expected |
-| Footer | Scroll down to the bottom of any page | See the social links | Works as expected |
-| 404 Page | If a link is broken, or the url is entered incorrectly | See the 404 Page | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Header</Summary>
-    <img src="docs/Validation/UserStoryTests/HeaderTest.png">
-  </details>
-  <details><summary>Footer</Summary>
-    <img src="docs/Validation/UserStoryTests/FooterTest.png">
-  </details>
-  <details><summary>404</Summary>
-    <img src="docs/Validation/UserStoryTests/404Test.png">
-  </details>
-</details>
-
-9. As a returning user, I want to be able to contact the company
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Contact form | Navigate to the Contact page | See the Contact form and be able to fill it in | Works as expected |
-| Google Map | Navigate to the Contact page | See the Google Map | Works as expected |
-| Address | Navigate to the Contact page | See the Address above the Google Map | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Contact Form</Summary>
-    <img src="docs/Validation/UserStoryTests/ContactFormTest.png">
-  </details>
-  <details><summary>Google Map</Summary>
-    <img src="docs/Validation/UserStoryTests/GoogleMapTest.png">
-  </details>
-  <details><summary>Address</Summary>
-    <img src="docs/Validation/UserStoryTests/AddressTest.png">
-  </details>
-</details>
-
-10. As a returning user, I want to learn more tricks
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Tricks | Navigate to the Tricks page and find any Trick | See the tricks | Works as expected |
-| Trick Videos | Navigate to the Tricks page and find any Trick Video | See the trick videos | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Tricks</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksTest.png">
-  </details>
-  <details><summary>Tricks Videos</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksVideosTest.png">
-  </details>
-</details>
-
-11. As a returning user, I want to learn where a physical store is
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Google Map | Navigate to the Contact page | See the Google Map | Works as expected |
-| Address | Navigate to the Contact page | See the Address above the Google Map | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Google Map</Summary>
-    <img src="docs/Validation/UserStoryTests/GoogleMapTest.png">
-  </details>
-  <details><summary>Address</Summary>
-    <img src="docs/Validation/UserStoryTests/AddressTest.png">
-  </details>
-</details>
-
-12. As a returning user, I want to look at products
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Boards | Navigate to the Boards page | See the page containing all the products | Works as expected |
-| Products | Navigate to the Boards page, and scroll down | See all of the products available | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Boards</Summary>
-    <img src="docs/Validation/UserStoryTests/BoardsTest.png">
-  </details>
-  <details><summary>Products</Summary>
-    <img src="docs/Validation/UserStoryTests/ProductsTest.png">
-  </details>
-</details>
-
-13. As a site owner, I want users to find out about our products
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Boards | Navigate to the Boards page | See the page containing all the products | Works as expected |
-| Products | Navigate to the Boards page, and scroll down | See all of the products available | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Boards</Summary>
-    <img src="docs/Validation/UserStoryTests/BoardsTest.png">
-  </details>
-  <details><summary>Products</Summary>
-    <img src="docs/Validation/UserStoryTests/ProductsTest.png">
-  </details>
-</details>
-
-14. As a site owner, I want users to have a good visual experience when using the website
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Header | Scroll up to the top of any page | See the logo and nav bar | Works as expected |
-| Footer | Scroll down to the bottom of any page | See the social links | Works as expected |
-| Hero Image | Navigate to the top of the Home page | See the Hero Image and cover text | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Header</Summary>
-    <img src="docs/Validation/UserStoryTests/HeaderTest.png">
-  </details>
-  <details><summary>Footer</Summary>
-    <img src="docs/Validation/UserStoryTests/FooterTest.png">
-  </details>
-  <details><summary>Hero Image</Summary>
-    <img src="docs/Validation/UserStoryTests/HeroImageTest.png">
-  </details>
-</details>
-
-15. As a site owner, I want users to be able to see a 404 page if anything goes wrong
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| 404 Page | If a link is broken, or the url is entered incorrectly | See the 404 Page | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>404</Summary>
-    <img src="docs/Validation/UserStoryTests/404Test.png">
-  </details>
-</details>
-
-16. As a site owner, I want to enrich our users' skateboarding experience
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Tricks | Navigate to the Tricks page and find any Trick | See the tricks | Works as expected |
-| Trick Videos | Navigate to the Tricks page and find any Trick Video | See the trick videos | Works as expected |
-
-<details><summary>Screenshots</Summary>
-  <details><summary>Tricks</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksTest.png">
-  </details>
-  <details><summary>Tricks Videos</Summary>
-    <img src="docs/Validation/UserStoryTests/TricksVideosTest.png">
-  </details>
-</details>
 
 ## Bugs
 
@@ -552,40 +333,11 @@ The website was tested on several web browsers to ensure consistency. The browse
 
 ## Deployment
 
-The website was deployed through the use of GitHub Pages, a feature built in to GitHub. This can be done by following the steps below.
-1. In the desired repository, click on "Settings" from the top menu.
-2. From the side menu to your left, select "Pages" in the "Code and automation" section.
-3. Make sure the "Source" option is set to "Deploy from a branch"
-4. Select the desired "Branch" from the drop down below (main branch in most cases, making sure the director is set to /(root)).
-5. Select "Save", and after it refreshes the page, you will see a box at the top of the page providing you with the URL of your now published site.
+The website was deployed through the use of GitHub.
+1.  Settings --> Pages --> Deploy from a branch --> Deploy from a branch -->Save
 
-You can fork my, or any other repository by doing the following.
-1. Go to the desired repository
-2. Click "Fork" in the upper right corner
-3. Select the owner, and set the repository name. A description can be added if desired
-4. Choose whether to copy the default branch, or all branches
-5. Click "Create Form"
-
-You can clone a repository by following the steps below.
-1. Go to the desired repository
-2. Click the "Code" button at the top of the files section of the page
-3. Select your desired method for cloning (HTTPS/SSH/GitHub CLI)
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory
-6. Type "git clone", and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of "YOUR-USERNAME": "$ git clone https://github.com/YOUR-USERNAME/DESIRED-REPOSITORY"
-7. Press Enter. Your local clone will be created.
 
 ## Credits
-
-### Media
-
-#### Videos
-
-- "How to Ollie in under 4 minutes" Video was taken from Youtube, from the creator "CCS"
-- "How to Shuvit & Pop Shuvit | In-Depth Trick Tip | Tactics" Video was taken from Youtube, from the creator "Tactics Boardshop"
-- "HOW TO FS 180" Video was taken from Youtube, from the creator "Jonny Giger"
-- "How to Kickflip in 5 minutes" Video was taken from Youtube, from the creator "CCS"
-- "How to Heelflip" Video was taken from Youtube, from the creator "Jonny Giger"
 
 #### Images
 

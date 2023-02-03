@@ -613,13 +613,6 @@ https://codepen.io/mobify/pen/DRyBoB */
   color: rgb(250, 250, 6);
 }
 
-.location {
-  color: #F0FFF0;
-  font-size: 16px;
-  letter-spacing: 1px;
-  padding-right: 5px;
-}
-
 /* media queries */
 
 /* for larger to medium screen sizes from 1200px wide and down */
@@ -734,9 +727,9 @@ https://codepen.io/mobify/pen/DRyBoB */
 @media screen and (max-width: 720px) {
 
   .top-bar-grid-item {
-    padding: 3px;
+    padding: 2px;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 16px;
     height: 10vh;
   }
 
@@ -766,7 +759,7 @@ https://codepen.io/mobify/pen/DRyBoB */
       'martial'
       'footer';
     background-color: #F0FFF0;
-    gap: 3px;
+    gap: 2px;
     padding: 3px;
     max-width: 720px;
   }
@@ -785,7 +778,7 @@ https://codepen.io/mobify/pen/DRyBoB */
       'martial'
       'footer';
     background-color: #F0FFF0;
-    gap: 3px;
+    gap: 2px;
     padding: 3px;
     max-width: 720px;
   }
@@ -800,7 +793,7 @@ https://codepen.io/mobify/pen/DRyBoB */
       'screen'
       'footer';
     background-color: #F0FFF0;
-    gap: 3px;
+    gap: 2px;
     padding: 3px;
     max-width: 720px;
   }
